@@ -12,7 +12,7 @@ from tensorflow.keras.layers import Conv2D, Input, BatchNormalization, Flatten, 
 
 import glob
 
-from newA.const import saved_model_path, train, max_length, size_x, size_y
+from const import saved_model_path, train, max_length, size_x, size_y
 
 train_images_paths = glob.glob(
     r"C:\Users\PC\PycharmProjects\AMA_many_car_object_detection\dataset\data\training_images\*.jpg")

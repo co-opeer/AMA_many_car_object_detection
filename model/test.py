@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 import pandas as pd
 
 
-from newA.const import train_path, saved_model_path, size_x, size_y, train, max_length
+from const import train_path, saved_model_path, size_x, size_y, train, max_length
 
 
 def data_generator(df=train, batch_size=16):
